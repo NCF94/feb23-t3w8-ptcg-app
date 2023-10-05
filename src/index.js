@@ -18,6 +18,8 @@ root.render(
           <Route path="/" element={<App />}/>
           {/* API fetch route */}
           <Route path="/card/search/:pokemonName" element={<CardSearchByName />} />
+
+          
         </Routes>
       
       </BrowserRouter>
